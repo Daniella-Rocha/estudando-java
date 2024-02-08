@@ -1,4 +1,4 @@
-package javabasico.primeiropasso.sobrecarga;
+package javabasico.sobrecarga;
 
 public class ContaCorrenteApp {
     public static void main(String[] args){

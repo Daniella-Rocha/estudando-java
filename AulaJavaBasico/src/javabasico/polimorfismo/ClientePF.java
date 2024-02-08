@@ -1,4 +1,4 @@
-package javabasico.primeiropasso.heranca;
+package javabasico.polimorfismo;
 
 public class ClientePF extends Cliente {
     private String cpf;
@@ -14,5 +14,9 @@ public class ClientePF extends Cliente {
     
     public void setCpf(String cpf){
         this.cpf = cpf;
+    }
+    
+    public String showInfo(){
+        return super.showInfo() + " - " + "Cpf: " + cpf; 
     }
 }

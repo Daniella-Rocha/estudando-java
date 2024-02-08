@@ -1,4 +1,4 @@
-package javabasico.primeiropasso.sobrecarga;
+package javabasico.sobrecarga;
 
 public class ContaCorrente {
     private int accNumber;

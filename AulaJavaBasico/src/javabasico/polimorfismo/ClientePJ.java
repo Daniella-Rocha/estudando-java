@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package javabasico.primeiropasso.heranca;
+package javabasico.polimorfismo;
 
 /**
  *
@@ -23,5 +23,9 @@ public class ClientePJ extends Cliente {
     
     public void setCnpj(String cnpj){
         this.cnpj = cnpj;
+    }
+        
+    public String showInfo(){
+        return super.showInfo() + " - " + "Cnpj: " + cnpj; 
     }
 }
