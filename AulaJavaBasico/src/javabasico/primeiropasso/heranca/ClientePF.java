@@ -1,4 +1,4 @@
-package javabasico;
+package javabasico.primeiropasso.heranca;
 
 public class ClientePF extends Cliente {
     private String cpf;
